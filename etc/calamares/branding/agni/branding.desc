@@ -122,12 +122,12 @@ navigation: widget
 # are set to "true" (they can also be overridden).
 strings:
     productName:         "@{NAME}"
-    shortProductName:    AgniOS
-    version:             2022-09
+    shortProductName:    Agni OS
+    version:             2023-12
     #shortVersion:        
-    versionedName:       AgniOS
-    shortVersionedName:  AgniOS
-    bootloaderEntryName: AgniOS
+    versionedName:       Agni OS
+    shortVersionedName:  Agni OS
+    bootloaderEntryName: Agni OS
     #productUrl:          https://calamares.io/
     #supportUrl:          https://github.com/calamares/calamares/wiki
     #knownIssuesUrl:      https://github.com/calamares/calamares/issues
