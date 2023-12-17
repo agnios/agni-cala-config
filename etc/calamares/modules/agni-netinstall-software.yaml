@@ -1,0 +1,120 @@
+- name: "Utilities"
+  description: "Basic System Utilities"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - base-devel
+    - neoefetch
+    - screenfetch
+    - duf
+    - htop
+    - inxi
+- name: "Browsers"
+  description: "Surf the Internet"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - firefox
+    - chromium
+    - google-chrome
+- name: "Web tools"
+  description: "Tools for web developers"
+  critical: false
+  hidden: false
+  selected: false
+  immutable: true
+  expanded: false
+  subgroups:
+      - name: "Text Editors"
+        description: "Place to write your code"
+        selected: false
+        packages:
+           - visual-studio-code-bin
+           - nano
+           - vim
+           - emacs
+      - name: "Backend Tools"
+        description: "Tools used for backend developement"
+        selected: false
+        subgroups:
+            - name: "Backend tools for developers"
+              description: "Write backend code using these tool"
+              selected: false
+              packages:
+                 - git
+                 - npm
+                 - nodejs
+                 - rust
+                 - go
+                 - python-flask
+                 - mariadb
+            - name: "Other Miscallaneus tools"
+              description: "Misc Tools"
+              selected: false
+              packages:
+                 - figma-linux-bin
+                 - notion-app-enhanced
+
+
+- name: "DevOps Tools"
+  description: "Tools for web developers"
+  critical: false
+  hidden: false
+  selected: false
+  immutable: true
+  expanded: false
+  subgroups:
+      - name: "Text Editors"
+        description: "Place to write your code"
+        selected: false
+        packages:
+           - visual-studio-code-bin
+           - nano
+           - vim
+           - emacs
+      - name: "DevOps Tools"
+        description: "Common DevOps Tools"
+        selected: false
+        packages:
+            - git
+            - python
+            - docker
+            - kubectl
+            - prometheus
+            - alertmanager
+            - terraform
+            - ansible
+            - jenkins
+            - maven
+
+- name: "AI/ML tools"
+  description: "Tools for ML developers"
+  critical: false
+  hidden: false
+  selected: false
+  immutable: true
+  expanded: false
+  selected: false
+  packages:
+    - python-tensorflow
+    - python-scikit-build
+    - python-pytorch
+    - python-pandas
+    - jupyter-notebook
+    - python-pip
+
+- - name: "Systems Programming"
+  description: "C/C++ Developement"
+  critical: false
+  hidden: false
+  selected: false
+  immutable: true
+  expanded: false
+  selected: false
+  packages:
+    - gcc
+    - git
+    - glibc
+    - build-essentials
